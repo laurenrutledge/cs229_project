@@ -34,7 +34,7 @@ pythonProject/
 │── data_cleanup.ipynb                                # Script used to clean up original dataset. results are found in usaa_swim_data directory that are used in final report
 │── README.md                                         # Project documentation
 
-```plaintext
+```
 
 ---
 
