@@ -1,11 +1,12 @@
-Predicting Female Swimmers' Specialization with Machine Learning
+# Predicting Female Swimmers' Specialization with Machine Learning
 
-Overview: 
-
+## Overview: 
 This project investigates whether machine learning can predict a female swimmer’s specialization before the age of 18 using historical race data from USA Swimming. By leveraging exploratory data analysis (EDA), ARIMA time-series forecasting, and multi-output regression, this study explores patterns in youth swim performance to determine optimal stroke specialization.
 
+-----
 
-Repository Structure: 
+## Repository Structure: 
+```plaintext
 pythonProject/
 │── arima/                                            # Directory containing ARIMA modeling for swim time prediction
 │   ├── swim_analysis_results/                        # Results of ARIMA analysis seen in report
