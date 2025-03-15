@@ -59,3 +59,44 @@ pythonProject/
 - Multi-output regression improves predictive accuracy for short- and mid-distance races
 - Long-distance events show more variability, requiring additional feature engineering
 
+___
+
+## How to Run the Code to Replicate Project 
+
+### 1. Set Up the Environment
+- First, activate the Conda environment and install the required dependencies:
+
+```sh
+conda create --name cs229_project_env python=3.10
+conda activate cs229_project_env
+pip install -r requirements.txt
+```
+
+### 2. Obtain the Data
+- Ensure you have the cleaned dataset ready:
+- Use swimmers_cleaned.csv located in the usaa_swim_data/ directory
+
+### 3. Run Feature Engineering
+- Execute the feature engineering script to generate additional features:
+```sh
+jupyter notebook feature_engineering/adding_features_to_dataset.ipynb
+```
+### 4. Run Exploratory Data Analysis (EDA)
+- To analyze swim event performance as a function of age, run: 
+```sh
+jupyter notebook eda_mean_time_per_swim_event_vs_age_of_swimmer/calculating_mean_time_per_swim_event_as_function_of_age.ipynb
+```
+### 5. Run ARIMA Model
+- To compute ARIMA-based predictions for event specialization, execute:
+```sh
+jupyter notebook arima/calculate_mean_time_per_event_specialized_vs_non_specialized.ipynb
+```
+### 6. Run Multi-Output Regression
+- To train and evaluate the multi-output regression model:
+```sh
+jupyter notebook multi_output_regression/multi_output_regression_v2.ipynb
+```
+
+
+
+
