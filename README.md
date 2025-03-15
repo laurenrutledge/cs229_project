@@ -35,3 +35,24 @@ pythonProject/
 │── README.md                                         # Project documentation
 
 
+## Methodology:
+### Data Preprocessing: 
+- Used USA Swimming records to filter and clean historical race data
+- Removed non-relevant metadata to focus on performance-based attributes
+- Converted swim times into a numerical scoring system based on USA Swimming time standards
+
+### Exploratory Data Analysis (EDA):
+- Visualized performance progression across different strokes and distances
+- Analyzed variability and specialization trends in youth swim times
+
+### Predictive Modeling:
+- Baseline Model: ARIMA for time-series forecasting of swim times
+- Machine Learning Model: Multi-output regression to predict event specialization
+
+---
+
+## Key Findings:
+- ARIMA provides a reasonable statistical baseline but struggles with sprint events
+- Multi-output regression improves predictive accuracy for short- and mid-distance races
+- Long-distance events show more variability, requiring additional feature engineering
+
