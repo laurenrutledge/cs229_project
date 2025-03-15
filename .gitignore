@@ -1,0 +1,12 @@
+# Ignore Conda environment files
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+*.log
+*.sqlite
+*.h5
+*.pkl
+*.csv  # Only if you don't want to push data files
+
